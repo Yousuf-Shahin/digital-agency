@@ -27,7 +27,7 @@
 }
 .item {
     list-style: none;
-    margin-left: 20px;
+    gap: 20px;
     cursor: pointer;
     font-size: 20px;
     padding: 12px;
@@ -53,14 +53,16 @@
 }
 .banner-section-tittle {
     font-size: 85px;
+    font-weight: bold;
 }
 .banner-tittle {
     color: rgb(245, 44, 44);
 }
 .banner-description {
     font-size: 23px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding: 20px;
+    width: 55%;
+    margin: auto;
 }
 .btn {
     padding: 15px 35px;
