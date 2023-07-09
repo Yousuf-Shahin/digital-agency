@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* this is nav section */
+.nav-container {
+    background-color: rgb(204, 203, 203);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.nav-img {
+    width: 200px;
+    cursor: pointer;
+}
+.nav-sub-tittle {
+    color: aqua;
+    font-size: 18px;
+}
+.nav-menus {
+    display: flex;
+}
+.item {
+    list-style: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px;
+}
+.item:hover {
+    background-color: coral;
+    color: aliceblue;
+    border-radius: 5px;
+    transition: 0.5s;
+}
